@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<livingBeings>
+    <livingBeing>
+        <id>21</id>
+        <name>Rabbit</name>
+        <valEnergy>10</valEnergy>
+
+        <!-- Life -->
+        <life>10</life>
+        <lifeLimit>5</lifeLimit>
+
+        <!-- Energy -->
+        <energy>200</energy>
+        <energyLimit>75</energyLimit>
+
+        <!-- Interface -->
+        <movement>Pedestrian</movement>
+        <reproduction>Reproducible</reproduction>
+
+        <!-- Food -->
+        <food>
+            <id>111</id>
+        </food>
+    </livingBeing>
+
+    <livingBeing>
+        <id>111</id>
+        <name>Carrot</name>
+        <valEnergy>50</valEnergy>
+
+        <!-- Life -->
+        <life>10</life>
+        <lifeLimit>5</lifeLimit>
+
+        <!-- Energy -->
+        <energy>100</energy>
+        <energyLimit>50</energyLimit>
+
+        <!-- Interface -->
+        <movement>Fixed</movement>
+        <reproduction>Unreproducible</reproduction>
+
+        <!-- Food -->
+        <food>
+        </food>
+    </livingBeing>
+
+    <livingBeing>
+        <id>22</id>
+        <name>Fox</name>
+        <valEnergy>40</valEnergy>
+
+        <!-- Life -->
+        <life>10</life>
+        <lifeLimit>5</lifeLimit>
+
+        <!-- Energy -->
+        <energy>200</energy>
+        <energyLimit>75</energyLimit>
+
+        <!-- Interface -->
+        <movement>Pedestrian</movement>
+        <reproduction>Reproducible</reproduction>
+
+        <!-- Food -->
+        <food>
+            <id>21</id>
+        </food>
+    </livingBeing>
+</livingBeings>
